@@ -3,33 +3,33 @@ def create_an_empty_array
 end
 
 def create_an_array
-  pretty_stones = ["diamonds", "sapphire", "opal", "ruby"]
+  ["diamonds", "sapphire", "opal", "ruby"]
 end
 
 def add_element_to_end_of_array(array, element)
-  pretty_stones << "quartz"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  pretty_stones.unshift("rose")
+  array.unshift("element")
 end
 
 def remove_element_from_end_of_array(array)
-  ruby = pretty_stones.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  diamonds = pretty_stones.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  pretty_stones[2]
+  array[2]
 end
 
 def retrieve_first_element_from_array(array)
-  pretty_stones[0]
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
-  pretty_stones[3]
+  array.last
 end
