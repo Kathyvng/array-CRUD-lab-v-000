@@ -6,11 +6,11 @@ def create_an_array
   pretty_stones = ["diamonds, sapphire, opal, ruby"]
 end
 
-def add_element_to_end_of_array(array, pretty_stones)
+def add_element_to_end_of_array(array, element)
   pretty_stones.push("quartz")
 end
 
-def add_element_to_start_of_array(array, pretty_stones)
+def add_element_to_start_of_array(array, element)
   pretty_stones.unshift("rose")
 end
 
