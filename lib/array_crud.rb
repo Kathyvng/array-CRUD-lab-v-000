@@ -8,18 +8,22 @@ end
 
 def add_element_to_end_of_array(array, element)
   pretty_stones.push("quartz")
+  puts pretty_stones.inspect
 end
 
 def add_element_to_start_of_array(array, element)
   pretty_stones.unshift("rose")
+  puts pretty_stones.inspect
 end
 
 def remove_element_from_end_of_array(array)
   ruby = pretty_stones.pop
+  puts pretty_stones.inspect
 end
 
 def remove_element_from_start_of_array(array)
   diamonds = pretty_stones.shift
+  puts pretty_stones.inspect
 end
 
 def retrieve_element_from_index(array, index_number)
